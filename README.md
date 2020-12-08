@@ -6,7 +6,7 @@ The files in this repository were used to configure the network depicted below.
 
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the _____ file may be used to install only certain pieces of it, such as Filebeat.
 
-  - _TODO: Enter the playbook file._ (Ansible/install-filebeat.yml)
+  - _TODO: Enter the playbook file._ 
 
 This document contains the following details:
 - Description of the Topology
@@ -70,7 +70,7 @@ The playbook implements the following tasks:
 - list the ports that elk runs on
 
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
-(Docker-ps/docker-ps.PNG)
+![TODO: Update the path with the name of your docker ps](Docker-ps/docker-ps.PNG)
 
 
 ### Target Machines & Beats
