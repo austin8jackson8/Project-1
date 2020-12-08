@@ -70,7 +70,7 @@ The playbook implements the following tasks:
 - list the ports that elk runs on
 
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
-
+(Docker-ps/docker-ps.PNG)
 
 
 ### Target Machines & Beats
