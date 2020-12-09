@@ -28,7 +28,7 @@ Load balancing ensures that the application will be highly available, in additio
 
 Integrating an ELK server allows users to easily monitor the vulnerable VMs for changes to the logs and system traffic.
 - What does Filebeat watch for? 
- -The log files or locations that you specify, collects log events, and forwards them either to Elasticsearch
+ -The log files or locations that you specify, collects log events, and forwards them either to Elasticsearch or a logstash.
 - What does Metricbeat record? 
  -metrics and statistics
 
@@ -85,7 +85,8 @@ We have installed the following Beats on these machines:
 - _TODO: Specify which Beats you successfully installed_ :Filebeat
 
 These Beats allow us to collect the following information from each machine:
-- _TODO: In 1-2 sentences, explain what kind of data each beat collects, and provide 1 example of what you expect to see. E.g., `Winlogbeat` collects Windows logs, which we use to track user logon events, etc._ File Beat will track our auth logs, and track SSH user logons.
+- _TODO: In 1-2 sentences, explain what kind of data each beat collects, and provide 1 example of what you expect to see. E.g., `Winlogbeat` collects Windows logs, which we use to track user logon events, etc._ 
+ -File Beat will track our auth logs, and track SSH user logons. With this you would be able to see how many times a machine was being SSH into and see if it looks suspicious.
 
 ### Using the Playbook
 In order to use the playbook, you will need to have an Ansible control node already configured. Assuming you have such a control node provisioned:
